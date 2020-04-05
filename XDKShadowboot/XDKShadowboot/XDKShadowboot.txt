@@ -1,0 +1,29 @@
+
+XDKShadowboot
+File: xboxromw2d.bin
+ShadowBoot Magic: 0xFF4F
+ShadowBoot Build: 20209
+ShadowBoot Qfe: 32768
+ShadowBoot Flags: 0x0
+ShadowBoot Entry: 0x8000
+ShadowBoot Size: 737280
+SB Magic: 0x5342
+SB Build: 0x2887
+SB Entry: 0x3C0
+SB Size: 0x4100
+SB Saved
+SC Magic: 0x5343
+SC Build: 0x4EF1
+SC Entry: 0x120
+SC Size: 0x6540
+SC Saved
+SD Magic: 0x5344
+SD Build: 0x4EF1
+SD Entry: 0x270
+SD Size: 0x4DE0
+SD Saved
+SE Magic: 0x5345
+SE Build: 0x4EF1
+SE Entry: 0x0
+SE Size: 0x99FBA
+SE Saved

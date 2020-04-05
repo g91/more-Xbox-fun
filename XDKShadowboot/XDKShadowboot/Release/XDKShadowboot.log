@@ -1,0 +1,19 @@
+﻿  stdafx.cpp
+  XDKShadowboot.cpp
+XDKShadowboot.cpp(133): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1469): note: see declaration of 'vsprintf'
+XDKShadowboot.cpp(150): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1469): note: see declaration of 'vsprintf'
+XDKShadowboot.cpp(217): warning C4244: 'initializing': conversion from 'QWORD' to 'unsigned int', possible loss of data
+libeay32.lib(cryptlib.obj) : error LNK2001: unresolved external symbol __vsnprintf
+libeay32.lib(cryptlib.obj) : error LNK2001: unresolved external symbol _vfprintf
+libeay32.lib(cryptlib.obj) : error LNK2001: unresolved external symbol ___iob_func
+libeay32.lib(rsa_sign.obj) : error LNK2001: unresolved external symbol ___iob_func
+libeay32.lib(pem_lib.obj) : error LNK2001: unresolved external symbol ___iob_func
+libeay32.lib(ui_openssl.obj) : error LNK2001: unresolved external symbol ___iob_func
+libeay32.lib(rsa_sign.obj) : error LNK2001: unresolved external symbol _fprintf
+libeay32.lib(pem_lib.obj) : error LNK2001: unresolved external symbol _fprintf
+libeay32.lib(ui_openssl.obj) : error LNK2001: unresolved external symbol _fprintf
+libeay32.lib(v3_utl.obj) : error LNK2001: unresolved external symbol _sscanf
+libeay32.lib(dso_win32.obj) : error LNK2001: unresolved external symbol _sprintf
+C:\Lookup\targets\teir\mega\Xbox 360\XDKShadowboot\Release\XDKShadowboot.exe : fatal error LNK1120: 6 unresolved externals

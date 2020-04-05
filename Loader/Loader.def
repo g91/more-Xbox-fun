@@ -1,0 +1,11 @@
+LIBRARY Loader
+
+EXPORTS
+	MiscTest	@1
+	DumpCacheExp	@2
+	XNotifyTime @3
+	DumpHvExp	@4
+	DumpChalData @5
+	Dump2blArea	@6
+	ExecuteFile @7
+	DumpFuse	@8

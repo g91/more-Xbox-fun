@@ -1,0 +1,35 @@
+﻿Build started 1/17/2016 7:40:56 PM.
+     1>Project "C:\Users\Teir\Documents\Visual Studio 2010\Projects\Kratistos\Loader\Loader.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release_LTCG\Loader.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Release_LTCG\Loader.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /Zi /nologo /W3 /WX- /Ox /Os /GL /D NDEBUG /D _XBOX /D LTCG /GF /Gm- /MT /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Fo"Release_LTCG\\" /Fd"Release_LTCG\vc100.pdb" /TP main.cpp utility.c /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\include\xbox\xbox_intellisense_platform.h"
+         main.cpp
+     1>c:\users\teir\documents\visual studio 2010\projects\kratistos\loader\kernel.h(261): warning C4091: 'typedef ' : ignored on left of 'LIBVERSION' when no variable is declared
+     1>c:\users\teir\documents\visual studio 2010\projects\kratistos\loader\kernel.h(266): warning C4091: 'typedef ' : ignored on left of 'LIBRARY' when no variable is declared
+     1>c:\users\teir\documents\visual studio 2010\projects\kratistos\loader\kernel.h(270): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\teir\documents\visual studio 2010\projects\kratistos\loader\kernel.h(271): warning C4091: 'typedef ' : ignored on left of 'StaticLibs' when no variable is declared
+         utility.c
+     1>c:\users\teir\documents\visual studio 2010\projects\kratistos\loader\kernel.h(261): warning C4091: 'typedef ' : ignored on left of 'LIBVERSION' when no variable is declared
+     1>c:\users\teir\documents\visual studio 2010\projects\kratistos\loader\kernel.h(266): warning C4091: 'typedef ' : ignored on left of 'LIBRARY' when no variable is declared
+     1>c:\users\teir\documents\visual studio 2010\projects\kratistos\loader\kernel.h(270): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\teir\documents\visual studio 2010\projects\kratistos\loader\kernel.h(271): warning C4091: 'typedef ' : ignored on left of 'StaticLibs' when no variable is declared
+     1>utility.c(30): warning C4172: returning address of local variable or temporary
+     1>utility.c(195): warning C4101: 'outInt' : unreferenced local variable
+     1>utility.c(369): warning C4101: 'outInt' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Teir\Documents\Visual Studio 2010\Projects\Kratistos\Loader\Release_LTCG\Loader.exe" /INCREMENTAL:NO /NOLOGO xapilib.lib d3d9ltcg.lib d3dx9.lib xgraphics.lib xboxkrnl.lib xnet.lib xaudio2.lib xact3ltcg.lib x3daudioltcg.lib xmcoreltcg.lib vcomp.lib /DEF:"Loader.def" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Teir\Documents\Visual Studio 2010\Projects\Kratistos\Loader\Release_LTCG\Loader.pdb" /STACK:"262144","262144" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /RELEASE /IMPLIB:"C:\Users\Teir\Documents\Visual Studio 2010\Projects\Kratistos\Loader\Release_LTCG\Loader.lib" Release_LTCG\main.obj
+         Release_LTCG\utility.obj /XEX:NO
+            Creating library C:\Users\Teir\Documents\Visual Studio 2010\Projects\Kratistos\Loader\Release_LTCG\Loader.lib and object C:\Users\Teir\Documents\Visual Studio 2010\Projects\Kratistos\Loader\Release_LTCG\Loader.exp
+     1>Loader.exp : warning LNK4070: /OUT:Loader.dll directive in .EXP differs from output filename 'C:\Users\Teir\Documents\Visual Studio 2010\Projects\Kratistos\Loader\Release_LTCG\Loader.exe'; ignoring directive
+     1>xapilib.lib(xapi0.obj) : error LNK2001: unresolved external symbol main
+     1>C:\Users\Teir\Documents\Visual Studio 2010\Projects\Kratistos\Loader\Release_LTCG\Loader.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\Teir\Documents\Visual Studio 2010\Projects\Kratistos\Loader\Loader.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.18

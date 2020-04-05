@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Hooks.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyVault.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleStuff.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Dump.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="HvxCalls.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Exports.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VdDisplay.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="soc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="xex.xml" />
+    <None Include="Loader.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{f335a79e-0ecd-418d-bd05-4899c42a11e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{20265fb8-6cdf-4486-865a-535c4040fcfa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dump.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyVault.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleStuff.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="HvxCalls.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Exports.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VdDisplay.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

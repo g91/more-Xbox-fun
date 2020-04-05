@@ -1,0 +1,4 @@
+16203 HV:
+
+memset 0000AAC0
+HvxSecurityInitialize 00006740

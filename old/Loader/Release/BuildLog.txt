@@ -1,0 +1,5 @@
+﻿     Creating library D:\new\Visual Studio 2010\Projects\Kratistos\Loader\Release\Loader.lib and object D:\new\Visual Studio 2010\Projects\Kratistos\Loader\Release\Loader.exp
+Loader.exp : warning LNK4070: /OUT:Loader.dll directive in .EXP differs from output filename 'D:\new\Visual Studio 2010\Projects\Kratistos\Loader\Release\Loader.exe'; ignoring directive
+IMAGEXEX : warning IM1034: missing export container for system module
+IMAGEXEX : warning IM1040: final image may not run properly
+xbecopy : error X1001: Could not connect to Xbox 360 'Jtag'

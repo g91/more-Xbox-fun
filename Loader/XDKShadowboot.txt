@@ -1,0 +1,6 @@
+[dllhook.dll]: dll entered
+[dllhook.dll]: dll entry reason: 1
+[dllhook.dll]: dll entered
+[dllhook.dll]: dll entry reason: 2
+[dllhook.dll]: dll entered
+[dllhook.dll]: dll entry reason: 0

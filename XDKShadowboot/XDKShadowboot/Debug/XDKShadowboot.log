@@ -1,0 +1,1 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(293,5): error MSB8010: Specified platform toolset (v90) requires Visual Studio 2008. Please make sure that Visual Studio 2008 is installed on the machine.

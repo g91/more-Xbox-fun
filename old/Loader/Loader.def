@@ -1,0 +1,4 @@
+LIBRARY Loader
+
+EXPORTS
+	DbgOut		@1
